@@ -397,3 +397,34 @@ footer span a{
     }
 }
 /*fim da pagina sobre empresa ------------------------------------------------------------------------------------*/
+
+/*inicio pagina contato -------------------------------------------------------------------------------------------------------------*/
+.contact{
+    color: var(--site-color);
+    background-color: var(--main-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact .title{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.contact .contact-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .contact-content .column{
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .left p{
+    text-align: justify;
+}
+/*fim pagina contato -------------------------------------------------------------------------------------------------------------*/
