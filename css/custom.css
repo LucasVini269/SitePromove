@@ -427,4 +427,71 @@ footer span a{
 .contact .contact-content .left p{
     text-align: justify;
 }
+
+.contact .contact-content .left .icons{
+    margin: 10px 0;
+}
+
+.contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+
+.contact .contact-content .row .info{
+    margin-left: 30px;
+}
+
+.contact .contact-content .row i{
+    font-size: 25px;
+    color: var(--active-color);  
+}
+
+.contact .contact-content .info .head{
+    font-weight: 500;
+}
+
+.contact .contact-content .info .sub-title{
+    color: var(--site-color);
+}
+
+.contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.contact .right form .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .right form .field,
+.contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+
+.contact .right form .field input,
+.contact .right form .field textarea{
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    outline: none;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.6s ease; 
+}
+
+.contact .right form .field input:focus,
+.contact .right form .field textarea:focus{
+    border-color: var(--active-color)
+}
 /*fim pagina contato -------------------------------------------------------------------------------------------------------------*/
